@@ -7,8 +7,9 @@ const Item = ({
    name,
    airdate
 }) => {
-
+  console.log(item.airdate);
     return(
+      
       <div key = {item.id}>
         <img src = {item.image} alt = "poster" />
         <li>{item.name}</li>
